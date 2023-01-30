@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: linear-gradient(to right bottom, #ec5f18, #86470d);
+  width: 100%;
+  min-height: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-wrapper {
+  background-color: #2171e8de;
+  min-width: 450px;
+  min-height: 650px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 3px 6px 40px #f4f41a;
+  margin-bottom: 10px;
+}
+.header h1 {
+  color: #fff;
+  text-align: center;
+  margin: 30px 0;
+}
+.task-input {
+  outline: none;
+  width: 260px;
+  padding: 15px;
+  margin-right: 25px;
+  font-size: 20px;
+  color: rgb(211, 241, 217);
+  background-color: #120e00;
+  border: 2px solid #df8115c8;
+  border-radius: 10px;
+}
+.button-add {
+  width: 70px;
+  padding: 15px 15px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 0;
+  background-color: #efe70f;
+  cursor: pointer;
+}
+.list-item {
+  display: flex;
+  margin: 20px 0;
+  border: 1px solid rgb(245, 243, 243);
+  border-radius: 10px;
+  padding: 10px;
+  max-height: 30px;
+}
+.button-complete,
+.button-delete,
+.button-edit {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 28px;
+  border-radius: 50px;
+}
+.button-complete {
+  color: #ec0e0e;
+  margin-right: 10px;
+}
+.button-edit {
+  color: #0aed34;
+  margin-right: 10px;
+}
+.button-delete {
+  color: rgb(220, 213, 208);
+}
+.complete {
+  text-decoration-style: solid;
+  text-decoration-line: line-through;
+  text-decoration-color: #ff6c6c;
+  opacity: 0.6;
+}
+.list {
+  width: 220px;
+  background-color: #0d0e0d;
+  border: none;
+  color: rgb(243, 239, 239);
+  font-size: 20px;
+  padding-left: 10px;
+  margin-right: 15px;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
